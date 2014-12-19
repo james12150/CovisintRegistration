@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>CCA registration</title>
+<!-- MAIN STYLES -->
+<link href="styles/custom.css" type="text/css" rel="stylesheet"/>
+<!-- PASSWORD VALIDATION STYLES -->
+<link href="styles/password.css" type="text/css" rel="stylesheet"/>
+<!-- SOCIAL MEDIA PLUGINS -->
+<!-- PASSWORD POLICY CHECK -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="scripts/password.js"></script>
+</head>
+<body>
+<!-- FACEBOOK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- END FACEBOOK -->
+<div id="wrapper">
+	<div id="header"><img src="img/header_cropped.gif" alt="Covisint&copy; Connect. Engage. Collaborate."/></div>
+    <div id="intro">
+        <h1>Extend your Identity and Access Management into the cloud with a FREE trial of the Covisint IDBridge</h1>
+        <h2>Register for your FREE 30-Day Trial!</h2>
+        <h3>Covisint IDBridge is an affordable, scalable and secure solution for organizations of all sizes. Covisint IDBridge enables organizations of all sizes to:<br />
+<span class="blue">&#8226;</span> Sync enterprise users to the cloud,<br />
+<span class="blue">&#8226;</span> Leverage your enterprise security policies to 3rd party SaaS applications,<br />
+<span class="blue">&#8226;</span> Keep user information and entitlements in sync, and<br />
+<span class="blue">&#8226;</span> Enable end-user single sign on to commonly used apps.</h3>
+    </div>
+    <div id="content">
+        <h4>user profile</h4>
+        <form>
+            <div class="forms">
+            
+                <label for="first_name">First Name:<span class="red">*</span></label>
+                <div class="input"><input id="first_name" name="first_name" type="text" class="input"></div><br />
+                <label for="last_name">Last Name:<span class="red">*</span></label>
+                <div class="input"><input id="last_name" name="last_name" type="text" class="input"></div><br />
+                <label for="company_name">Company Name:<span class="red">*</span></label>
+                <div class="input"><input id="company_name" name="company_name" type="text" class="input"></div><br />
+                <label for="postal">Postal Code:<span class="red">*</span></label>
+                <div class="input"><input id="postal" name="postal" type="text" class="input"></div><br />
+                <label for="email" >Email Address:<span class="red">*</span></label>
+                <div class="input"><input id="email" name="email" type="text" class="input"></div><br />
+                <label for="reenter_email">Re-enter Email:<span class="red">*</span></label>
+                <div class="input"><input id="reenter_email" name="reenter_email" type="text" class="input"></div><br />
+            </div>
+            <br clear="all" />
+        <hr align="center" width="100%" color="#0079bd" />
+        <h4>account information</h4>
+        <div class="forms">
+                <label for="first_name">User ID:<span class="red">*</span></label>
+                <div class="input"><input id="user_id" name="user_id" type="text" class="input"></div><br />
+                <label for="pswd">Password:<span class="red">*</span></label>
+                <div class="input"><input id="pswd" name="pswd" type="password" class="input"></div><br />
+                <label for="reenter_password">Re-enter Password:<span class="red">*</span></label>
+                <div class="input"><input id="reenter_password" name="reenter_password" type="password" class="input"></div><br />
+                <label for="question1">Challenging Question 1:<span class="red">*</span></label>
+                <div class="select"><select name="question1" name="question1" type="text" class="input">
+                	<option selected value="...">Select...</option>
+                    <option value="maiden">What is your mother's maiden name?</option>
+                    <option value="color">What is your favorite color?</option>
+                </select></div><br />
+                <label for="answer1">Challenging Answer 1:<span class="red">*</span></label>
+                <div class="input"><input id="answer1" name="answer1" type="text" class="input"></div><br />
+                <label for="question2">Challenging Question 2:<span class="red">*</span></label>
+                <div class="select"><select name="question2" name="question2" type="text" class="input">
+                	<option selected value="...">Select...</option>
+                    <option value="maiden">What is your mother's maiden name?</option>
+                    <option value="color">What is your favorite color?</option>
+                </select></div><br />
+                <label for="answer2">Challenging Answer 2:<span class="red">*</span></label>
+                <div class="input"><input id="answer2" name="answer2" type="text" class="input"></div><br />
+           </div>
+         </form>   
+              <br clear="all" />
+            <button type="submit">Submit Registration</button>
+            <br clear="all" />
+    </div>
+<!--
+<form>
+	<ul>
+		<li>
+			<label for="username">Username:</label>
+			<span><input id="username" name="username" type="text" /></span>
+		</li>
+		<li>
+			<label for="pswd">Password:</label>
+			<span><input id="pswd" type="password" name="pswd" /></span>
+		</li>
+		<li>
+			<button type="submit">Register</button>
+		</li>
+	</ul>
+</form>
+-->
+    <footer>
+
+        &copy; 2013 <a href="http://www.covisint.com/stories/healthcare" target="_blank">Covisint Corporation</a>. All Rights Reserved. <a href="http://www.compuware.com/about/accessibility.html" target="_blank">Accessibility</a>, <a href="http://www.covisint.com/privacy" target="_blank">Privacy</a> and <a href="http://www.covisint.com/legal" target="_blank">Legal</a>
+
+	</footer>
+    <!--PASSWORD INFO-->
+    <div id="pswd_info">
+	<h5>Password must meet the following requirements:</h5>
+	<ul>
+		<li id="letter" class="invalid">At least <strong>one lowercase letter</strong></li>
+		<li id="capital" class="invalid">At least <strong>one capital letter</strong></li>
+		<li id="number" class="invalid">At least <strong>one number</strong></li>
+        <li id="special" class="invalid">At least <strong>special character</strong></li>
+		<li id="length" class="invalid"><strong>8–20</strong> characters</li>
+        <li id="spaces" class="invalid">no spaces</strong></li>
+	</ul>
+</div>
+</body>
+
+</html>

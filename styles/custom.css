@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.chrome #pswd_info {/*bottom:-320px; left:910px;right:55px;*/ right:5%; top:690px; float:none; height:180px;}
+
+}
+
+/* ADDITIONS */
+#intro h1 {font-size:26px;}
+#intro h3 {font-weight:400;}
+.green {font-size:18px;}
+.x-tip-body {background:#fff; border:1px solid #999; corner-radius:6px; }
+#social {float:left; margin:0 12px 0px 20px;}
+footer {height:20px;}
+/*
+
+LEGACY
+
+*/
+/* BODY GRADIENT */
+body {background: #8d8d8d; /* Old browsers */
+background: -moz-linear-gradient(top,  #8d8d8d 0%, #f4f4f4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8d8d8d), color-stop(100%,#f4f4f4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #8d8d8d 0%,#f4f4f4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #8d8d8d 0%,#f4f4f4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #8d8d8d 0%,#f4f4f4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #8d8d8d 0%,#f4f4f4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d8d8d', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+}
+/* wrapper for all content */
+#wrapper {width:960px; border:solid #000 1px; margin:auto; background:#fff;}
+
+/* light gray container for headlines */
+#intro {background:#ebebeb; padding:15px 150px 10px 180px; border-bottom:1px solid #777;}
+/* headlines underneath banner == inside of #intro */
+h1 {color:#007ac0; font-family:Arial, Helvetica, sans-serif; font-size:26px; font-weight:bold;}
+h2 {color:#333; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:bold;}
+h3 {color:#000; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold;}
+
+/*wrapper for main content == forms */
+#content {width: 610px; margin:auto; margin-bottom:40px;}
+
+/* USER PROFILE & ACCOUNT INFO */
+h4 {float:left; width: 30px;color:#007ac0; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:100; text-transform:uppercase;}
+
+/* INPUT FIELDS 7 LABELS*/
+.select {float:right; width:310px; height:18px; clear:both; margin-top: 3px; margin-left:10px;}
+.input {float:right; width:310px; height:18px; clear:both; margin-left:10px;}
+.forms {float:right; text-align:right; width:500px; line-height:32px; color:#000; font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:100; margin:15px 0 10px 0;}
+
+/* BLUE LINE DIVIDER
+hr {color::#0079bd; width:100%;}*/
+
+/* BULLETS & ASTERISKS */
+.red{color:#f00;}
+.blue{color:#007ac0;}
+
+/* FOOTER */
+footer {color:#000; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:100; margin:10px; text-align:center;}
+footer a {color:#0079bd; text-decoration:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:100;}
